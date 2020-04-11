@@ -1,0 +1,28 @@
+2020-04-11 14:30:35 2404 [restartedMain] INFO  com.mk.java.JavaApplication - Starting JavaApplication on SC-201807041747 with PID 1672 (started by Administrator in F:\java基础) 
+2020-04-11 14:30:35 2406 [restartedMain] INFO  com.mk.java.JavaApplication - No active profile set, falling back to default profiles: default 
+2020-04-11 14:30:36 2600 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2020-04-11 14:30:36 2600 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2020-04-11 14:30:38 5045 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http) 
+2020-04-11 14:30:38 5056 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2020-04-11 14:30:38 5057 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2020-04-11 14:30:38 5058 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31] 
+2020-04-11 14:30:38 5267 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2020-04-11 14:30:38 5268 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2667 ms 
+2020-04-11 14:30:39 6058 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2020-04-11 14:30:40 6555 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2020-04-11 14:30:40 6635 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"] 
+2020-04-11 14:30:40 6666 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '' 
+2020-04-11 14:30:40 6670 [restartedMain] INFO  com.mk.java.JavaApplication - Started JavaApplication in 5.495 seconds (JVM running for 8.367) 
+2020-04-11 14:30:51 17819 [http-nio-8081-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2020-04-11 14:30:51 17819 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2020-04-11 14:30:51 17827 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms 
+2020-04-11 14:30:51 17966 [http-nio-8081-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+2020-04-11 14:30:52 19158 [http-nio-8081-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+2020-04-11 14:30:52 19264 [http-nio-8081-exec-2] INFO  c.mk.java.controller.testController - 我是赤峰市国土资源局松山区分局负责人 
+2020-04-11 14:30:52 19264 [http-nio-8081-exec-2] INFO  c.mk.java.controller.testController - 我是巴彦淖尔市民族事务委员会（经办） 
+2020-04-11 14:30:52 19264 [http-nio-8081-exec-2] INFO  c.mk.java.controller.testController - 我是赤峰市城建综合开发中心经办人 
+2020-04-11 14:30:52 19264 [http-nio-8081-exec-2] INFO  c.mk.java.controller.testController - 我是赤峰市人民政府办公厅主管用户 
+2020-04-11 14:30:52 19264 [http-nio-8081-exec-2] INFO  c.mk.java.controller.testController - 我是赤峰市交通建设工程质量监督局主管用户 
+2020-04-11 14:45:57 924225 [Thread-18] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2020-04-11 14:45:57 924226 [Thread-18] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+2020-04-11 14:45:57 924235 [Thread-18] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 

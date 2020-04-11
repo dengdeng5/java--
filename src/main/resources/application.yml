@@ -1,0 +1,21 @@
+spring:
+  #数据源
+  datasource:
+    url: jdbc:mysql://49.4.52.68:3306/gpmall?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
+    username: gp-gpmall
+    password: Develop!^Gpmall1
+    driver-class-name: com.mysql.jdbc.Driver
+#mybatis配置
+mybatis:
+#  typeAliasesPackage: com.mk.java.controller    可有可无与mapperscan一样的效果
+  mapperLocations: classpath:mapper/*.xml
+  #configLocation: classpath:/mybatis-config.xml
+server:
+  port: 8081
+  #日志配置
+#logging:
+#  config: classpath:log4j.properties
+#logback配置
+
+logging:
+  config: classpath:logback.xml
